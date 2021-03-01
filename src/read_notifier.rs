@@ -2,8 +2,8 @@ use std::fmt;
 use std::pin::Pin;
 use std::task::{Context, Poll};
 
+use async_channel::Sender;
 use async_std::io::{self, BufRead, Read};
-use async_std::sync::Sender;
 
 pin_project_lite::pin_project! {
     /// ReadNotifier forwards [`async_std::io::Read`] and
