@@ -26,6 +26,7 @@ lazy_static = "1.4.0"
 futures-core = "0.3.8"
 log = "0.4.11"
 pin-project = "1.0.2"
+async-channel = "1.5.1"
 
 [dev-dependencies]
 pretty_assertions = "0.6.1"
